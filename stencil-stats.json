@@ -1,5 +1,5 @@
 {
-  "timestamp": "2021-08-26T19:39:58",
+  "timestamp": "2021-08-26T22:34:34",
   "compiler": {
     "name": "node",
     "version": "16.4.2"
@@ -10,9 +10,10 @@
     "outputs": [
       {
         "name": "dist-collection",
-        "files": 8,
+        "files": 9,
         "generatedFiles": [
           "/Users/will/Sites/Ionic/stats-flag-library/dist/collection/components/first-collection-component/first-collection-component.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/collection/components/imported-from-another-library/imported-from-another-library.js",
           "/Users/will/Sites/Ionic/stats-flag-library/dist/collection/components/my-component/my-component.js",
           "/Users/will/Sites/Ionic/stats-flag-library/dist/collection/components/my-nested-component/my-nested-component.js",
           "/Users/will/Sites/Ionic/stats-flag-library/dist/collection/components/my-new-component/my-new-component.js",
@@ -32,21 +33,25 @@
       },
       {
         "name": "dist-lazy",
-        "files": 36,
+        "files": 44,
         "generatedFiles": [
           "/Users/will/Sites/Ionic/stats-flag-library/dist/cjs/first-collection-component_2.cjs.entry.js",
-          "/Users/will/Sites/Ionic/stats-flag-library/dist/cjs/index-b5482908.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/cjs/imported-from-another-library.cjs.entry.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/cjs/index-1f89bf6e.js",
           "/Users/will/Sites/Ionic/stats-flag-library/dist/cjs/index.cjs.js",
           "/Users/will/Sites/Ionic/stats-flag-library/dist/cjs/loader.cjs.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/cjs/midwest-device.cjs.entry.js",
           "/Users/will/Sites/Ionic/stats-flag-library/dist/cjs/my-component.cjs.entry.js",
           "/Users/will/Sites/Ionic/stats-flag-library/dist/cjs/my-nested-component.cjs.entry.js",
           "/Users/will/Sites/Ionic/stats-flag-library/dist/cjs/my-new-component.cjs.entry.js",
           "/Users/will/Sites/Ionic/stats-flag-library/dist/cjs/my-newer-component.cjs.entry.js",
           "/Users/will/Sites/Ionic/stats-flag-library/dist/cjs/stats-flag-library.cjs.js",
           "/Users/will/Sites/Ionic/stats-flag-library/dist/esm/first-collection-component_2.entry.js",
-          "/Users/will/Sites/Ionic/stats-flag-library/dist/esm/index-97437c09.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/esm/imported-from-another-library.entry.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/esm/index-74887975.js",
           "/Users/will/Sites/Ionic/stats-flag-library/dist/esm/index.js",
           "/Users/will/Sites/Ionic/stats-flag-library/dist/esm/loader.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/esm/midwest-device.entry.js",
           "/Users/will/Sites/Ionic/stats-flag-library/dist/esm/my-component.entry.js",
           "/Users/will/Sites/Ionic/stats-flag-library/dist/esm/my-nested-component.entry.js",
           "/Users/will/Sites/Ionic/stats-flag-library/dist/esm/my-new-component.entry.js",
@@ -55,20 +60,24 @@
           "/Users/will/Sites/Ionic/stats-flag-library/dist/index.cjs.js",
           "/Users/will/Sites/Ionic/stats-flag-library/dist/index.js",
           "/Users/will/Sites/Ionic/stats-flag-library/dist/stats-flag-library/index.esm.js",
-          "/Users/will/Sites/Ionic/stats-flag-library/dist/stats-flag-library/p-323c0811.entry.js",
-          "/Users/will/Sites/Ionic/stats-flag-library/dist/stats-flag-library/p-5b455796.entry.js",
-          "/Users/will/Sites/Ionic/stats-flag-library/dist/stats-flag-library/p-65d3b86f.js",
-          "/Users/will/Sites/Ionic/stats-flag-library/dist/stats-flag-library/p-ac1c8676.entry.js",
-          "/Users/will/Sites/Ionic/stats-flag-library/dist/stats-flag-library/p-ade87e2a.entry.js",
-          "/Users/will/Sites/Ionic/stats-flag-library/dist/stats-flag-library/p-b319f3ea.entry.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/stats-flag-library/p-15219ac7.entry.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/stats-flag-library/p-1ec85b73.entry.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/stats-flag-library/p-5511c671.entry.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/stats-flag-library/p-69738346.entry.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/stats-flag-library/p-71cd576b.entry.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/stats-flag-library/p-afcc1b95.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/stats-flag-library/p-d360a3ee.entry.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/stats-flag-library/p-e805e39f.entry.js",
           "/Users/will/Sites/Ionic/stats-flag-library/dist/stats-flag-library/stats-flag-library.esm.js",
           "/Users/will/Sites/Ionic/stats-flag-library/www/build/index.esm.js",
-          "/Users/will/Sites/Ionic/stats-flag-library/www/build/p-323c0811.entry.js",
-          "/Users/will/Sites/Ionic/stats-flag-library/www/build/p-5b455796.entry.js",
-          "/Users/will/Sites/Ionic/stats-flag-library/www/build/p-65d3b86f.js",
-          "/Users/will/Sites/Ionic/stats-flag-library/www/build/p-ac1c8676.entry.js",
-          "/Users/will/Sites/Ionic/stats-flag-library/www/build/p-ade87e2a.entry.js",
-          "/Users/will/Sites/Ionic/stats-flag-library/www/build/p-b319f3ea.entry.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/www/build/p-15219ac7.entry.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/www/build/p-1ec85b73.entry.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/www/build/p-5511c671.entry.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/www/build/p-69738346.entry.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/www/build/p-71cd576b.entry.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/www/build/p-afcc1b95.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/www/build/p-d360a3ee.entry.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/www/build/p-e805e39f.entry.js",
           "/Users/will/Sites/Ionic/stats-flag-library/www/build/stats-flag-library.esm.js"
         ]
       },
@@ -88,9 +97,9 @@
         ]
       }
     ],
-    "components": 6,
-    "entries": 6,
-    "bundles": 49
+    "components": 8,
+    "entries": 8,
+    "bundles": 58
   },
   "options": {
     "minifyJs": true,
@@ -106,55 +115,84 @@
         "first-collection-component",
         "second-collection-component"
       ],
-      "bundleId": "p-ac1c8676",
-      "fileName": "p-ac1c8676.entry.js",
+      "bundleId": "p-d360a3ee",
+      "fileName": "p-d360a3ee.entry.js",
       "imports": [
-        "p-65d3b86f.js"
-      ]
+        "p-afcc1b95.js"
+      ],
+      "byteSize": 793
+    },
+    {
+      "key": "imported-from-another-library.entry",
+      "components": [
+        "imported-from-another-library"
+      ],
+      "bundleId": "p-1ec85b73",
+      "fileName": "p-1ec85b73.entry.js",
+      "imports": [
+        "p-afcc1b95.js"
+      ],
+      "byteSize": 488
     },
     {
       "key": "my-component.entry",
       "components": [
         "my-component"
       ],
-      "bundleId": "p-323c0811",
-      "fileName": "p-323c0811.entry.js",
+      "bundleId": "p-71cd576b",
+      "fileName": "p-71cd576b.entry.js",
       "imports": [
-        "p-65d3b86f.js"
-      ]
+        "p-afcc1b95.js"
+      ],
+      "byteSize": 562
     },
     {
       "key": "my-new-component.entry",
       "components": [
         "my-new-component"
       ],
-      "bundleId": "p-5b455796",
-      "fileName": "p-5b455796.entry.js",
+      "bundleId": "p-69738346",
+      "fileName": "p-69738346.entry.js",
       "imports": [
-        "p-65d3b86f.js"
-      ]
+        "p-afcc1b95.js"
+      ],
+      "byteSize": 407
     },
     {
       "key": "my-newer-component.entry",
       "components": [
         "my-newer-component"
       ],
-      "bundleId": "p-b319f3ea",
-      "fileName": "p-b319f3ea.entry.js",
+      "bundleId": "p-5511c671",
+      "fileName": "p-5511c671.entry.js",
       "imports": [
-        "p-65d3b86f.js"
-      ]
+        "p-afcc1b95.js"
+      ],
+      "byteSize": 406
+    },
+    {
+      "key": "midwest-device.entry",
+      "components": [
+        "midwest-device"
+      ],
+      "bundleId": "p-15219ac7",
+      "fileName": "p-15219ac7.entry.js",
+      "imports": [
+        "p-afcc1b95.js"
+      ],
+      "byteSize": 5185
     },
     {
       "key": "my-nested-component.entry",
       "components": [
         "my-nested-component"
       ],
-      "bundleId": "p-ade87e2a",
-      "fileName": "p-ade87e2a.entry.js",
+      "bundleId": "p-e805e39f",
+      "fileName": "p-e805e39f.entry.js",
       "imports": [
-        "p-65d3b86f.js"
-      ]
+        "p-afcc1b95.js"
+      ],
+      "byteSize": 393
     }
   ],
   "esm": [
@@ -167,8 +205,21 @@
       "bundleId": "first-collection-component_2",
       "fileName": "first-collection-component_2.entry.js",
       "imports": [
-        "index-97437c09.js"
-      ]
+        "index-74887975.js"
+      ],
+      "byteSize": 797
+    },
+    {
+      "key": "imported-from-another-library.entry",
+      "components": [
+        "imported-from-another-library"
+      ],
+      "bundleId": "imported-from-another-library",
+      "fileName": "imported-from-another-library.entry.js",
+      "imports": [
+        "index-74887975.js"
+      ],
+      "byteSize": 492
     },
     {
       "key": "my-component.entry",
@@ -178,8 +229,9 @@
       "bundleId": "my-component",
       "fileName": "my-component.entry.js",
       "imports": [
-        "index-97437c09.js"
-      ]
+        "index-74887975.js"
+      ],
+      "byteSize": 566
     },
     {
       "key": "my-new-component.entry",
@@ -189,8 +241,9 @@
       "bundleId": "my-new-component",
       "fileName": "my-new-component.entry.js",
       "imports": [
-        "index-97437c09.js"
-      ]
+        "index-74887975.js"
+      ],
+      "byteSize": 411
     },
     {
       "key": "my-newer-component.entry",
@@ -200,8 +253,21 @@
       "bundleId": "my-newer-component",
       "fileName": "my-newer-component.entry.js",
       "imports": [
-        "index-97437c09.js"
-      ]
+        "index-74887975.js"
+      ],
+      "byteSize": 410
+    },
+    {
+      "key": "midwest-device.entry",
+      "components": [
+        "midwest-device"
+      ],
+      "bundleId": "midwest-device",
+      "fileName": "midwest-device.entry.js",
+      "imports": [
+        "index-74887975.js"
+      ],
+      "byteSize": 5189
     },
     {
       "key": "my-nested-component.entry",
@@ -211,8 +277,9 @@
       "bundleId": "my-nested-component",
       "fileName": "my-nested-component.entry.js",
       "imports": [
-        "index-97437c09.js"
-      ]
+        "index-74887975.js"
+      ],
+      "byteSize": 397
     }
   ],
   "es5": [],
@@ -227,8 +294,21 @@
       "bundleId": "first-collection-component_2.cjs",
       "fileName": "first-collection-component_2.cjs.entry.js",
       "imports": [
-        "index-b5482908.js"
-      ]
+        "index-1f89bf6e.js"
+      ],
+      "byteSize": 898
+    },
+    {
+      "key": "imported-from-another-library.entry",
+      "components": [
+        "imported-from-another-library"
+      ],
+      "bundleId": "imported-from-another-library.cjs",
+      "fileName": "imported-from-another-library.cjs.entry.js",
+      "imports": [
+        "index-1f89bf6e.js"
+      ],
+      "byteSize": 568
     },
     {
       "key": "my-component.entry",
@@ -238,8 +318,9 @@
       "bundleId": "my-component.cjs",
       "fileName": "my-component.cjs.entry.js",
       "imports": [
-        "index-b5482908.js"
-      ]
+        "index-1f89bf6e.js"
+      ],
+      "byteSize": 635
     },
     {
       "key": "my-new-component.entry",
@@ -249,8 +330,9 @@
       "bundleId": "my-new-component.cjs",
       "fileName": "my-new-component.cjs.entry.js",
       "imports": [
-        "index-b5482908.js"
-      ]
+        "index-1f89bf6e.js"
+      ],
+      "byteSize": 487
     },
     {
       "key": "my-newer-component.entry",
@@ -260,8 +342,21 @@
       "bundleId": "my-newer-component.cjs",
       "fileName": "my-newer-component.cjs.entry.js",
       "imports": [
-        "index-b5482908.js"
-      ]
+        "index-1f89bf6e.js"
+      ],
+      "byteSize": 480
+    },
+    {
+      "key": "midwest-device.entry",
+      "components": [
+        "midwest-device"
+      ],
+      "bundleId": "midwest-device.cjs",
+      "fileName": "midwest-device.cjs.entry.js",
+      "imports": [
+        "index-1f89bf6e.js"
+      ],
+      "byteSize": 5288
     },
     {
       "key": "my-nested-component.entry",
@@ -271,8 +366,9 @@
       "bundleId": "my-nested-component.cjs",
       "fileName": "my-nested-component.cjs.entry.js",
       "imports": [
-        "index-b5482908.js"
-      ]
+        "index-1f89bf6e.js"
+      ],
+      "byteSize": 467
     }
   ],
   "components": [
@@ -301,6 +397,118 @@
       "methods": [],
       "potentialCmpRefs": [],
       "properties": [],
+      "shadowDelegatesFocus": false,
+      "states": []
+    },
+    {
+      "tag": "imported-from-another-library",
+      "path": "/Users/will/Sites/Ionic/stats-flag-library/src/components/imported-from-another-library/imported-from-another-library.js",
+      "source": "/Users/will/Sites/Ionic/stats-flag-library/src/components/imported-from-another-library/imported-from-another-library.tsx",
+      "elementRef": null,
+      "componentClassName": "ImportedFromAnotherLibrary",
+      "assetsDirs": [],
+      "dependencies": [
+        "midwest-device"
+      ],
+      "dependents": [],
+      "directDependencies": [
+        "midwest-device"
+      ],
+      "directDependents": [],
+      "docs": {
+        "tags": [],
+        "text": ""
+      },
+      "encapsulation": "shadow",
+      "excludeFromCollection": false,
+      "events": [],
+      "internal": false,
+      "legacyConnect": [],
+      "legacyContext": [],
+      "listeners": [],
+      "methods": [],
+      "potentialCmpRefs": [
+        "midwest-device"
+      ],
+      "properties": [],
+      "shadowDelegatesFocus": false,
+      "states": []
+    },
+    {
+      "tag": "midwest-device",
+      "path": "/Users/will/Sites/Ionic/stats-flag-library/node_modules/@midwest-design/device/dist/collection/components/device/device.js",
+      "source": "/Users/will/Sites/Ionic/stats-flag-library/node_modules/@midwest-design/device/dist/collection/components/device/device.js",
+      "elementRef": null,
+      "componentClassName": "Devices",
+      "assetsDirs": [
+        {
+          "absolutePath": "/Users/will/Sites/Ionic/stats-flag-library/node_modules/@midwest-design/device/dist/collection/components/device/vendor",
+          "cmpRelativePath": "vendor",
+          "originalComponentPath": "vendor"
+        }
+      ],
+      "dependencies": [],
+      "dependents": [
+        "imported-from-another-library"
+      ],
+      "directDependencies": [],
+      "directDependents": [
+        "imported-from-another-library"
+      ],
+      "docs": {
+        "tags": [],
+        "text": ""
+      },
+      "encapsulation": "shadow",
+      "excludeFromCollection": false,
+      "events": [],
+      "internal": false,
+      "legacyConnect": [],
+      "legacyContext": [],
+      "listeners": [],
+      "methods": [],
+      "potentialCmpRefs": [],
+      "properties": [
+        {
+          "name": "frame",
+          "type": "string",
+          "attribute": "frame",
+          "reflect": true,
+          "mutable": false,
+          "required": false,
+          "optional": false,
+          "defaultValue": "\"macbook-pro\"",
+          "complexType": {
+            "original": "\"apple-tv\"|\"apple-tv-in-app\"|\"apple-watch-42-black\"|\"apple-watch-42-white\"|\"apple-watch-44-black\"|\"apple-watch-44-white\"|\"imac-pro\"|\"imac\"|\"ipad-pro-portrait\"|\"ipad-pro-landscape\"|\"iphone-8-silver\"|\"iphone-8-spacegray\"|\"iphone-8-plus-silver\"|\"iphone-8-plus-spacegray\"|\"iphone-xs\"|\"iphone-xs-max\"|\"ipod-touch-portrait-blue\"|\"ipod-touch-landscape-blue\"|\"ipod-touch-portrait-silver\"|\"ipod-touch-landscape-silver\"|\"macbook-air\"|\"macbook-pro\"",
+            "resolved": "\"apple-tv\" | \"apple-tv-in-app\" | \"apple-watch-42-black\" | \"apple-watch-42-white\" | \"apple-watch-44-black\" | \"apple-watch-44-white\" | \"imac-pro\" | \"imac\" | \"ipad-pro-portrait\" | \"ipad-pro-landscape\" | \"iphone-8-silver\" | \"iphone-8-spacegray\" | \"iphone-8-plus-silver\" | \"iphone-8-plus-spacegray\" | \"iphone-xs\" | \"iphone-xs-max\" | \"ipod-touch-portrait-blue\" | \"ipod-touch-landscape-blue\" | \"ipod-touch-portrait-silver\" | \"ipod-touch-landscape-silver\" | \"macbook-air\" | \"macbook-pro\"",
+            "references": {}
+          },
+          "docs": {
+            "tags": [],
+            "text": "The Device Name"
+          },
+          "internal": false
+        },
+        {
+          "name": "retina",
+          "type": "boolean",
+          "attribute": "retina",
+          "reflect": false,
+          "mutable": false,
+          "required": false,
+          "optional": false,
+          "complexType": {
+            "original": "boolean",
+            "resolved": "boolean",
+            "references": {}
+          },
+          "docs": {
+            "tags": [],
+            "text": ""
+          },
+          "internal": false
+        }
+      ],
       "shadowDelegatesFocus": false,
       "states": []
     },

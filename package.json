@@ -22,6 +22,7 @@
     "generate": "stencil generate"
   },
   "dependencies": {
+    "@midwest-design/device": "^0.0.14",
     "@stencil/core": "^2.7.0"
   },
   "devDependencies": {

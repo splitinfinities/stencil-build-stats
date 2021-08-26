@@ -8,6 +8,8 @@ import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
     interface FirstCollectionComponent {
     }
+    interface ImportedFromAnotherLibrary {
+    }
     interface MyComponent {
         /**
           * The first name
@@ -37,6 +39,12 @@ declare global {
     var HTMLFirstCollectionComponentElement: {
         prototype: HTMLFirstCollectionComponentElement;
         new (): HTMLFirstCollectionComponentElement;
+    };
+    interface HTMLImportedFromAnotherLibraryElement extends Components.ImportedFromAnotherLibrary, HTMLStencilElement {
+    }
+    var HTMLImportedFromAnotherLibraryElement: {
+        prototype: HTMLImportedFromAnotherLibraryElement;
+        new (): HTMLImportedFromAnotherLibraryElement;
     };
     interface HTMLMyComponentElement extends Components.MyComponent, HTMLStencilElement {
     }
@@ -70,6 +78,7 @@ declare global {
     };
     interface HTMLElementTagNameMap {
         "first-collection-component": HTMLFirstCollectionComponentElement;
+        "imported-from-another-library": HTMLImportedFromAnotherLibraryElement;
         "my-component": HTMLMyComponentElement;
         "my-nested-component": HTMLMyNestedComponentElement;
         "my-new-component": HTMLMyNewComponentElement;
@@ -79,6 +88,8 @@ declare global {
 }
 declare namespace LocalJSX {
     interface FirstCollectionComponent {
+    }
+    interface ImportedFromAnotherLibrary {
     }
     interface MyComponent {
         /**
@@ -104,6 +115,7 @@ declare namespace LocalJSX {
     }
     interface IntrinsicElements {
         "first-collection-component": FirstCollectionComponent;
+        "imported-from-another-library": ImportedFromAnotherLibrary;
         "my-component": MyComponent;
         "my-nested-component": MyNestedComponent;
         "my-new-component": MyNewComponent;
@@ -116,6 +128,7 @@ declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
             "first-collection-component": LocalJSX.FirstCollectionComponent & JSXBase.HTMLAttributes<HTMLFirstCollectionComponentElement>;
+            "imported-from-another-library": LocalJSX.ImportedFromAnotherLibrary & JSXBase.HTMLAttributes<HTMLImportedFromAnotherLibraryElement>;
             "my-component": LocalJSX.MyComponent & JSXBase.HTMLAttributes<HTMLMyComponentElement>;
             "my-nested-component": LocalJSX.MyNestedComponent & JSXBase.HTMLAttributes<HTMLMyNestedComponentElement>;
             "my-new-component": LocalJSX.MyNewComponent & JSXBase.HTMLAttributes<HTMLMyNewComponentElement>;
