@@ -5,6 +5,7 @@ export const config: Config = {
   bundles: [{ components: ['first-collection-component', 'second-collection-component'] }],
   outputTargets: [
     { type: 'stats' },
+    { type: 'stats', file: './a-specific-name.json' },
     {
       type: 'dist',
       esmLoaderPath: '../loader',
