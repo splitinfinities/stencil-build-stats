@@ -2,7 +2,9 @@ import { Config } from '@stencil/core';
 
 export const config: Config = {
   namespace: 'stats-flag-library',
+  bundles: [{ components: ['first-collection-component', 'second-collection-component'] }],
   outputTargets: [
+    { type: 'stats' },
     {
       type: 'dist',
       esmLoaderPath: '../loader',

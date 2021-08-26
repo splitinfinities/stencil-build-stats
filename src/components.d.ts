@@ -6,6 +6,8 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
+    interface FirstCollectionComponent {
+    }
     interface MyComponent {
         /**
           * The first name
@@ -20,19 +22,64 @@ export namespace Components {
          */
         "middle": string;
     }
+    interface MyNestedComponent {
+    }
+    interface MyNewComponent {
+    }
+    interface MyNewerComponent {
+    }
+    interface SecondCollectionComponent {
+    }
 }
 declare global {
+    interface HTMLFirstCollectionComponentElement extends Components.FirstCollectionComponent, HTMLStencilElement {
+    }
+    var HTMLFirstCollectionComponentElement: {
+        prototype: HTMLFirstCollectionComponentElement;
+        new (): HTMLFirstCollectionComponentElement;
+    };
     interface HTMLMyComponentElement extends Components.MyComponent, HTMLStencilElement {
     }
     var HTMLMyComponentElement: {
         prototype: HTMLMyComponentElement;
         new (): HTMLMyComponentElement;
     };
+    interface HTMLMyNestedComponentElement extends Components.MyNestedComponent, HTMLStencilElement {
+    }
+    var HTMLMyNestedComponentElement: {
+        prototype: HTMLMyNestedComponentElement;
+        new (): HTMLMyNestedComponentElement;
+    };
+    interface HTMLMyNewComponentElement extends Components.MyNewComponent, HTMLStencilElement {
+    }
+    var HTMLMyNewComponentElement: {
+        prototype: HTMLMyNewComponentElement;
+        new (): HTMLMyNewComponentElement;
+    };
+    interface HTMLMyNewerComponentElement extends Components.MyNewerComponent, HTMLStencilElement {
+    }
+    var HTMLMyNewerComponentElement: {
+        prototype: HTMLMyNewerComponentElement;
+        new (): HTMLMyNewerComponentElement;
+    };
+    interface HTMLSecondCollectionComponentElement extends Components.SecondCollectionComponent, HTMLStencilElement {
+    }
+    var HTMLSecondCollectionComponentElement: {
+        prototype: HTMLSecondCollectionComponentElement;
+        new (): HTMLSecondCollectionComponentElement;
+    };
     interface HTMLElementTagNameMap {
+        "first-collection-component": HTMLFirstCollectionComponentElement;
         "my-component": HTMLMyComponentElement;
+        "my-nested-component": HTMLMyNestedComponentElement;
+        "my-new-component": HTMLMyNewComponentElement;
+        "my-newer-component": HTMLMyNewerComponentElement;
+        "second-collection-component": HTMLSecondCollectionComponentElement;
     }
 }
 declare namespace LocalJSX {
+    interface FirstCollectionComponent {
+    }
     interface MyComponent {
         /**
           * The first name
@@ -47,15 +94,33 @@ declare namespace LocalJSX {
          */
         "middle"?: string;
     }
+    interface MyNestedComponent {
+    }
+    interface MyNewComponent {
+    }
+    interface MyNewerComponent {
+    }
+    interface SecondCollectionComponent {
+    }
     interface IntrinsicElements {
+        "first-collection-component": FirstCollectionComponent;
         "my-component": MyComponent;
+        "my-nested-component": MyNestedComponent;
+        "my-new-component": MyNewComponent;
+        "my-newer-component": MyNewerComponent;
+        "second-collection-component": SecondCollectionComponent;
     }
 }
 export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
+            "first-collection-component": LocalJSX.FirstCollectionComponent & JSXBase.HTMLAttributes<HTMLFirstCollectionComponentElement>;
             "my-component": LocalJSX.MyComponent & JSXBase.HTMLAttributes<HTMLMyComponentElement>;
+            "my-nested-component": LocalJSX.MyNestedComponent & JSXBase.HTMLAttributes<HTMLMyNestedComponentElement>;
+            "my-new-component": LocalJSX.MyNewComponent & JSXBase.HTMLAttributes<HTMLMyNewComponentElement>;
+            "my-newer-component": LocalJSX.MyNewerComponent & JSXBase.HTMLAttributes<HTMLMyNewerComponentElement>;
+            "second-collection-component": LocalJSX.SecondCollectionComponent & JSXBase.HTMLAttributes<HTMLSecondCollectionComponentElement>;
         }
     }
 }

@@ -1,0 +1,516 @@
+{
+  "timestamp": "2021-08-26T19:39:58",
+  "compiler": {
+    "name": "node",
+    "version": "16.4.2"
+  },
+  "app": {
+    "namespace": "StatsFlagLibrary",
+    "fsNamespace": "stats-flag-library",
+    "outputs": [
+      {
+        "name": "dist-collection",
+        "files": 8,
+        "generatedFiles": [
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/collection/components/first-collection-component/first-collection-component.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/collection/components/my-component/my-component.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/collection/components/my-nested-component/my-nested-component.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/collection/components/my-new-component/my-new-component.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/collection/components/my-newer-component/my-newer-component.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/collection/components/second-collection-component/second-collection-component.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/collection/index.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/collection/utils/utils.js"
+        ]
+      },
+      {
+        "name": "dist-custom-elements-bundle",
+        "files": 2,
+        "generatedFiles": [
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/custom-elements/index.d.ts",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/custom-elements/index.js"
+        ]
+      },
+      {
+        "name": "dist-lazy",
+        "files": 36,
+        "generatedFiles": [
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/cjs/first-collection-component_2.cjs.entry.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/cjs/index-b5482908.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/cjs/index.cjs.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/cjs/loader.cjs.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/cjs/my-component.cjs.entry.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/cjs/my-nested-component.cjs.entry.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/cjs/my-new-component.cjs.entry.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/cjs/my-newer-component.cjs.entry.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/cjs/stats-flag-library.cjs.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/esm/first-collection-component_2.entry.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/esm/index-97437c09.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/esm/index.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/esm/loader.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/esm/my-component.entry.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/esm/my-nested-component.entry.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/esm/my-new-component.entry.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/esm/my-newer-component.entry.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/esm/stats-flag-library.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/index.cjs.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/index.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/stats-flag-library/index.esm.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/stats-flag-library/p-323c0811.entry.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/stats-flag-library/p-5b455796.entry.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/stats-flag-library/p-65d3b86f.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/stats-flag-library/p-ac1c8676.entry.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/stats-flag-library/p-ade87e2a.entry.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/stats-flag-library/p-b319f3ea.entry.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/stats-flag-library/stats-flag-library.esm.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/www/build/index.esm.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/www/build/p-323c0811.entry.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/www/build/p-5b455796.entry.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/www/build/p-65d3b86f.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/www/build/p-ac1c8676.entry.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/www/build/p-ade87e2a.entry.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/www/build/p-b319f3ea.entry.js",
+          "/Users/will/Sites/Ionic/stats-flag-library/www/build/stats-flag-library.esm.js"
+        ]
+      },
+      {
+        "name": "dist-types",
+        "files": 1,
+        "generatedFiles": [
+          "/Users/will/Sites/Ionic/stats-flag-library/dist/types/stencil-public-runtime.d.ts"
+        ]
+      },
+      {
+        "name": "www",
+        "files": 2,
+        "generatedFiles": [
+          "/Users/will/Sites/Ionic/stats-flag-library/www/host.config.json",
+          "/Users/will/Sites/Ionic/stats-flag-library/www/index.html"
+        ]
+      }
+    ],
+    "components": 6,
+    "entries": 6,
+    "bundles": 49
+  },
+  "options": {
+    "minifyJs": true,
+    "minifyCss": true,
+    "hashFileNames": true,
+    "hashedFileNameLength": 8,
+    "buildEs5": false
+  },
+  "esmBrowser": [
+    {
+      "key": "first-collection-component.second-collection-component.entry",
+      "components": [
+        "first-collection-component",
+        "second-collection-component"
+      ],
+      "bundleId": "p-ac1c8676",
+      "fileName": "p-ac1c8676.entry.js",
+      "imports": [
+        "p-65d3b86f.js"
+      ]
+    },
+    {
+      "key": "my-component.entry",
+      "components": [
+        "my-component"
+      ],
+      "bundleId": "p-323c0811",
+      "fileName": "p-323c0811.entry.js",
+      "imports": [
+        "p-65d3b86f.js"
+      ]
+    },
+    {
+      "key": "my-new-component.entry",
+      "components": [
+        "my-new-component"
+      ],
+      "bundleId": "p-5b455796",
+      "fileName": "p-5b455796.entry.js",
+      "imports": [
+        "p-65d3b86f.js"
+      ]
+    },
+    {
+      "key": "my-newer-component.entry",
+      "components": [
+        "my-newer-component"
+      ],
+      "bundleId": "p-b319f3ea",
+      "fileName": "p-b319f3ea.entry.js",
+      "imports": [
+        "p-65d3b86f.js"
+      ]
+    },
+    {
+      "key": "my-nested-component.entry",
+      "components": [
+        "my-nested-component"
+      ],
+      "bundleId": "p-ade87e2a",
+      "fileName": "p-ade87e2a.entry.js",
+      "imports": [
+        "p-65d3b86f.js"
+      ]
+    }
+  ],
+  "esm": [
+    {
+      "key": "first-collection-component.second-collection-component.entry",
+      "components": [
+        "first-collection-component",
+        "second-collection-component"
+      ],
+      "bundleId": "first-collection-component_2",
+      "fileName": "first-collection-component_2.entry.js",
+      "imports": [
+        "index-97437c09.js"
+      ]
+    },
+    {
+      "key": "my-component.entry",
+      "components": [
+        "my-component"
+      ],
+      "bundleId": "my-component",
+      "fileName": "my-component.entry.js",
+      "imports": [
+        "index-97437c09.js"
+      ]
+    },
+    {
+      "key": "my-new-component.entry",
+      "components": [
+        "my-new-component"
+      ],
+      "bundleId": "my-new-component",
+      "fileName": "my-new-component.entry.js",
+      "imports": [
+        "index-97437c09.js"
+      ]
+    },
+    {
+      "key": "my-newer-component.entry",
+      "components": [
+        "my-newer-component"
+      ],
+      "bundleId": "my-newer-component",
+      "fileName": "my-newer-component.entry.js",
+      "imports": [
+        "index-97437c09.js"
+      ]
+    },
+    {
+      "key": "my-nested-component.entry",
+      "components": [
+        "my-nested-component"
+      ],
+      "bundleId": "my-nested-component",
+      "fileName": "my-nested-component.entry.js",
+      "imports": [
+        "index-97437c09.js"
+      ]
+    }
+  ],
+  "es5": [],
+  "system": false,
+  "commonjs": [
+    {
+      "key": "first-collection-component.second-collection-component.entry",
+      "components": [
+        "first-collection-component",
+        "second-collection-component"
+      ],
+      "bundleId": "first-collection-component_2.cjs",
+      "fileName": "first-collection-component_2.cjs.entry.js",
+      "imports": [
+        "index-b5482908.js"
+      ]
+    },
+    {
+      "key": "my-component.entry",
+      "components": [
+        "my-component"
+      ],
+      "bundleId": "my-component.cjs",
+      "fileName": "my-component.cjs.entry.js",
+      "imports": [
+        "index-b5482908.js"
+      ]
+    },
+    {
+      "key": "my-new-component.entry",
+      "components": [
+        "my-new-component"
+      ],
+      "bundleId": "my-new-component.cjs",
+      "fileName": "my-new-component.cjs.entry.js",
+      "imports": [
+        "index-b5482908.js"
+      ]
+    },
+    {
+      "key": "my-newer-component.entry",
+      "components": [
+        "my-newer-component"
+      ],
+      "bundleId": "my-newer-component.cjs",
+      "fileName": "my-newer-component.cjs.entry.js",
+      "imports": [
+        "index-b5482908.js"
+      ]
+    },
+    {
+      "key": "my-nested-component.entry",
+      "components": [
+        "my-nested-component"
+      ],
+      "bundleId": "my-nested-component.cjs",
+      "fileName": "my-nested-component.cjs.entry.js",
+      "imports": [
+        "index-b5482908.js"
+      ]
+    }
+  ],
+  "components": [
+    {
+      "tag": "first-collection-component",
+      "path": "/Users/will/Sites/Ionic/stats-flag-library/src/components/first-collection-component/first-collection-component.js",
+      "source": "/Users/will/Sites/Ionic/stats-flag-library/src/components/first-collection-component/first-collection-component.tsx",
+      "elementRef": null,
+      "componentClassName": "FirstCollectionComponent",
+      "assetsDirs": [],
+      "dependencies": [],
+      "dependents": [],
+      "directDependencies": [],
+      "directDependents": [],
+      "docs": {
+        "tags": [],
+        "text": ""
+      },
+      "encapsulation": "shadow",
+      "excludeFromCollection": false,
+      "events": [],
+      "internal": false,
+      "legacyConnect": [],
+      "legacyContext": [],
+      "listeners": [],
+      "methods": [],
+      "potentialCmpRefs": [],
+      "properties": [],
+      "shadowDelegatesFocus": false,
+      "states": []
+    },
+    {
+      "tag": "my-component",
+      "path": "/Users/will/Sites/Ionic/stats-flag-library/src/components/my-component/my-component.js",
+      "source": "/Users/will/Sites/Ionic/stats-flag-library/src/components/my-component/my-component.tsx",
+      "elementRef": null,
+      "componentClassName": "MyComponent",
+      "assetsDirs": [],
+      "dependencies": [],
+      "dependents": [],
+      "directDependencies": [],
+      "directDependents": [],
+      "docs": {
+        "tags": [],
+        "text": ""
+      },
+      "encapsulation": "shadow",
+      "excludeFromCollection": false,
+      "events": [],
+      "internal": false,
+      "legacyConnect": [],
+      "legacyContext": [],
+      "listeners": [],
+      "methods": [],
+      "potentialCmpRefs": [],
+      "properties": [
+        {
+          "name": "first",
+          "type": "string",
+          "attribute": "first",
+          "reflect": false,
+          "mutable": false,
+          "required": false,
+          "optional": false,
+          "complexType": {
+            "original": "string",
+            "resolved": "string",
+            "references": {}
+          },
+          "docs": {
+            "tags": [],
+            "text": "The first name"
+          },
+          "internal": false
+        },
+        {
+          "name": "middle",
+          "type": "string",
+          "attribute": "middle",
+          "reflect": false,
+          "mutable": false,
+          "required": false,
+          "optional": false,
+          "complexType": {
+            "original": "string",
+            "resolved": "string",
+            "references": {}
+          },
+          "docs": {
+            "tags": [],
+            "text": "The middle name"
+          },
+          "internal": false
+        },
+        {
+          "name": "last",
+          "type": "string",
+          "attribute": "last",
+          "reflect": false,
+          "mutable": false,
+          "required": false,
+          "optional": false,
+          "complexType": {
+            "original": "string",
+            "resolved": "string",
+            "references": {}
+          },
+          "docs": {
+            "tags": [],
+            "text": "The last name"
+          },
+          "internal": false
+        }
+      ],
+      "shadowDelegatesFocus": false,
+      "states": []
+    },
+    {
+      "tag": "my-nested-component",
+      "path": "/Users/will/Sites/Ionic/stats-flag-library/src/components/my-nested-component/my-nested-component.js",
+      "source": "/Users/will/Sites/Ionic/stats-flag-library/src/components/my-nested-component/my-nested-component.tsx",
+      "elementRef": null,
+      "componentClassName": "MyNestedComponent",
+      "assetsDirs": [],
+      "dependencies": [],
+      "dependents": [
+        "my-new-component"
+      ],
+      "directDependencies": [],
+      "directDependents": [
+        "my-new-component"
+      ],
+      "docs": {
+        "tags": [],
+        "text": ""
+      },
+      "encapsulation": "shadow",
+      "excludeFromCollection": false,
+      "events": [],
+      "internal": false,
+      "legacyConnect": [],
+      "legacyContext": [],
+      "listeners": [],
+      "methods": [],
+      "potentialCmpRefs": [],
+      "properties": [],
+      "shadowDelegatesFocus": false,
+      "states": []
+    },
+    {
+      "tag": "my-new-component",
+      "path": "/Users/will/Sites/Ionic/stats-flag-library/src/components/my-new-component/my-new-component.js",
+      "source": "/Users/will/Sites/Ionic/stats-flag-library/src/components/my-new-component/my-new-component.tsx",
+      "elementRef": null,
+      "componentClassName": "MyNewComponent",
+      "assetsDirs": [],
+      "dependencies": [
+        "my-nested-component"
+      ],
+      "dependents": [],
+      "directDependencies": [
+        "my-nested-component"
+      ],
+      "directDependents": [],
+      "docs": {
+        "tags": [],
+        "text": ""
+      },
+      "encapsulation": "none",
+      "excludeFromCollection": false,
+      "events": [],
+      "internal": false,
+      "legacyConnect": [],
+      "legacyContext": [],
+      "listeners": [],
+      "methods": [],
+      "potentialCmpRefs": [
+        "my-nested-component"
+      ],
+      "properties": [],
+      "shadowDelegatesFocus": null,
+      "states": []
+    },
+    {
+      "tag": "my-newer-component",
+      "path": "/Users/will/Sites/Ionic/stats-flag-library/src/components/my-newer-component/my-newer-component.js",
+      "source": "/Users/will/Sites/Ionic/stats-flag-library/src/components/my-newer-component/my-newer-component.tsx",
+      "elementRef": null,
+      "componentClassName": "MyNewerComponent",
+      "assetsDirs": [],
+      "dependencies": [],
+      "dependents": [],
+      "directDependencies": [],
+      "directDependents": [],
+      "docs": {
+        "tags": [],
+        "text": ""
+      },
+      "encapsulation": "scoped",
+      "excludeFromCollection": false,
+      "events": [],
+      "internal": false,
+      "legacyConnect": [],
+      "legacyContext": [],
+      "listeners": [],
+      "methods": [],
+      "potentialCmpRefs": [],
+      "properties": [],
+      "shadowDelegatesFocus": null,
+      "states": []
+    },
+    {
+      "tag": "second-collection-component",
+      "path": "/Users/will/Sites/Ionic/stats-flag-library/src/components/second-collection-component/second-collection-component.js",
+      "source": "/Users/will/Sites/Ionic/stats-flag-library/src/components/second-collection-component/second-collection-component.tsx",
+      "elementRef": null,
+      "componentClassName": "SecondCollectionComponent",
+      "assetsDirs": [],
+      "dependencies": [],
+      "dependents": [],
+      "directDependencies": [],
+      "directDependents": [],
+      "docs": {
+        "tags": [],
+        "text": ""
+      },
+      "encapsulation": "shadow",
+      "excludeFromCollection": false,
+      "events": [],
+      "internal": false,
+      "legacyConnect": [],
+      "legacyContext": [],
+      "listeners": [],
+      "methods": [],
+      "potentialCmpRefs": [],
+      "properties": [],
+      "shadowDelegatesFocus": false,
+      "states": []
+    }
+  ]
+}
